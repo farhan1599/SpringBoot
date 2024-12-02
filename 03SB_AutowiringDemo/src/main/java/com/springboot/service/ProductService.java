@@ -18,7 +18,7 @@ public class ProductService {
 
 	public void saveProduct() {
 		product.saveProduct();
-		System.out.println("Saved...")
+		
 
 	}
 
