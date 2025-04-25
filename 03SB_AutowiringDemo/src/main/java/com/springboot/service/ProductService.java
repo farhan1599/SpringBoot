@@ -1,6 +1,7 @@
 package com.springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import com.springboot.dao.IProduct;
@@ -18,7 +19,7 @@ public class ProductService {
 
 	public void saveProduct() {
 		product.saveProduct();
-		System.out.println("Saved...")
+		System.out.println("Saved...");
 
 	}
 
